@@ -1,0 +1,12 @@
+dist: xenial
+language: python
+python:
+  - "3.7"
+
+install:
+  - pip install black pytest-cov codecov
+
+script:
+  - black --check .
+  - pytest --cov .
+  - codecov
