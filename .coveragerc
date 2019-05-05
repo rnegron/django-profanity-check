@@ -1,5 +1,4 @@
 [run]
 omit =
-    __init__.py
-    apps.py
-    migrations/*
+    ./profanity/__init__.py
+    ./profanity/apps.py

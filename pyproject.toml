@@ -1,9 +1,23 @@
 [tool.poetry]
 name = "django-profanity-check"
 version = "0.1.0"
-description = "A Django template wrapper around profanity-check"
+description = "A Django template filter that wraps around profanity-check"
 authors = ["Raúl Negrón <raul.esteban.negron@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rnegron/django-profanity-check"
+keywords = ["Django", "profanity", "template-filter"]
+classifiers = [
+    "Framework :: Django",
+    "Environment :: Web Environment",
+    "Development Status :: 4 - Beta", 
+    "Natural Language :: English", 
+    "Programming Language :: Python :: 3", 
+    "License :: OSI Approved :: MIT License"]
+
+packages = [
+    { include = "profanity" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"

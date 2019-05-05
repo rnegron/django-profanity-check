@@ -1,5 +1,5 @@
 import pytest
-from templatetags.profanity_check import censor
+from profanity.templatetags.profanity import censor
 
 
 @pytest.mark.parametrize("word", ["fuck", "shit", "cunt", "ass"])
