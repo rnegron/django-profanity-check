@@ -4,7 +4,7 @@ python:
   - '3.7'
 
 install:
-  - pip install black pytest-cov codecov
+  - pip install django profanity_check black pytest-cov codecov
 
 script:
   - black --check profanity
